@@ -3,65 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Certificate of Achievement</title>
+  <title>Ayush's Certifications</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      font-family: Arial, sans-serif;
       background-color: #f4f4f4;
+      padding: 20px;
     }
-    .certificate-container {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card {
       background-color: white;
-      padding: 40px;
-      border: 10px solid #ddd;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      width: 800px;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
-    .certificate-title {
-      font-size: 36px;
-      font-weight: bold;
-      color: #333;
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
     }
-    .certificate-content {
-      margin-top: 30px;
+    .card h3 {
       font-size: 18px;
-      color: #666;
+      color: #333;
+      margin: 15px 0;
     }
-    .certificate-recipient {
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-    .certificate-footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #999;
-    }
-    .certificate-issuer {
-      font-size: 16px;
-      font-weight: bold;
-      margin-top: 20px;
+    .card p {
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="certificate-container">
-    <div class="certificate-title">Certificate of Achievement</div>
-    <div class="certificate-content">
-      This certificate is presented to
-      <div class="certificate-recipient">[Your Name]</div>
-      For successfully completing the course
-      <div class="certificate-recipient">[Course Title]</div>
-      On <strong>[Date]</strong>
-    </div>
-    <div class="certificate-footer">
-      Issued by
-      <div class="certificate-issuer">[Issuer Name]</div>
-    </div>
+
+<h1>Ayush's SAP Certifications</h1>
+
+<div class="container">
+  <div class="card">
+    <img src="cert1.png" alt="Composing and automating with SAP Build">
+    <h3>Composing and Automating with SAP Build</h3>
+    <p>Issued: Feb 7, 2024</p>
   </div>
+
+  <div class="card">
+    <img src="cert2.png" alt="Extending SAP S/4HANA with SAP Build Apps">
+    <h3>Extending SAP S/4HANA with SAP Build Apps</h3>
+    <p>Issued: Feb 10, 2024</p>
+  </div>
+
+  <div class="card">
+    <img src="cert3.png" alt="Setting up ABAP Environment on SAP BTP">
+    <h3>Setting up ABAP Environment on SAP BTP</h3>
+    <p>Issued: Feb 11, 2024</p>
+  </div>
+
+  <div class="card">
+    <img src="cert4.png" alt="Getting Started with In-App Extensibility">
+    <h3>Getting Started with In-App Extensibility</h3>
+    <p>Issued: Apr 30, 2024</p>
+  </div>
+
+  <div class="card">
+    <img src="cert5.png" alt="Exploring the SAP Business AI Portfolio">
+    <h3>Exploring the SAP Business AI Portfolio</h3>
+    <p>Issued: May 27, 2024</p>
+  </div>
+
+  <div class="card">
+    <img src="cert6.png" alt="Creating Applications using SAP Build Code">
+    <h3>Creating Applications using SAP Build Code</h3>
+    <p>Issued: Aug 7, 2024</p>
+  </div>
+</div>
+
 </body>
 </html>
